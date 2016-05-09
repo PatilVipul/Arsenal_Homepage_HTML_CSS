@@ -1,0 +1,512 @@
+<!Doctype html>
+<html>	
+  <head>
+		<title>Arsenal</title>
+		<style type="text/css">
+
+			body{
+				border-left: 100px;
+				border-right: 100px;
+				border-style: solid;
+				background-color: rgb(255,225,207);
+			}
+
+			#icon{
+				width: 11%;
+				height: 30%;
+				margin-top: 1%;
+				margin-left: 1%;
+				float: left;
+      } 
+      #icon img
+      {
+        margin-left: 1%;
+        margin-top: 1%;
+        height: 100%;
+        width: 100%;
+      }
+
+			#header{
+        width: 86%;
+        font-size: 100%;
+        float: right;
+        text-align: right;
+        display: inline;
+			}
+			#header p
+      {
+        color: white;
+        text-align: left;
+        font-size: 285%;
+        margin-top: 1%;
+        padding-left: 1%;
+        padding-top: 4%;
+        margin-bottom: 3%;
+        margin-right: 1%;
+        font-weight: 900;
+        font-family: "felix titling";
+        background-color: #e50000;
+      }
+      #header ul
+      {
+       	margin: 0;
+       	height: 2%;
+       	margin-right: 1%;
+       	background-color: #e50000;
+      }
+			#header li 
+      {
+				margin-right: 1%;
+				margin-left: 1%;
+				font-size: 100%;
+				font-family: "Monotype Corsiva";
+       	display: inline;
+      }
+      #header span
+      {
+       	margin-left: 3%;
+       	font-size: 50%;
+      }
+      #header a
+      {
+				color: rgb(255,255,255);
+				font-size: 170%
+			}
+      #header a:hover 
+      {
+				color: red;
+       	background-color: white;
+      }
+
+      #info
+      {
+      	width:50%;
+       	height:100%;
+       	font-family: "Calibri";
+      	font-size: 90%;
+       	margin-left: 1%;
+       	margin-top: 15%;
+       	text-align: justify;
+      }
+      #info span
+      {
+       	font-weight: bold;
+      }
+
+      #team
+      {
+       	float:right;
+       	height: 100%;
+       	width: 50%;
+       	margin-top: 1%;
+				margin-left: 2%;
+      }
+      #team img
+      {
+      	height: 100%;
+       	width: 98%;          	  	
+      }
+      #team a img:hover 
+      {
+       	opacity: 0.3;
+      	filter: alpha(opacity=100); 
+      }
+
+      #santi
+      {
+       	width:33%;
+       	height:200px;
+      }
+			#santi img
+			{
+			  width: 100%;
+		    height: 100%;
+		    border-width: 1px;
+		    border-style: solid;
+		    border-color: black;
+			}
+      #santi a img:hover
+			{
+       	opacity: 0.3;
+       	filter: alpha(opacity=100); 
+      }
+
+   		#giroud
+   		{
+  			width:33%;
+   			height:200px;
+   		}
+			#giroud img
+      {
+			  width: 100%;
+		   	height: 100%;
+		   	border-width: 1px;
+		   	border-style: solid;
+		   	border-color: black;
+			}
+			#giroud a img:hover
+			{
+        opacity: 0.3;
+        filter: alpha(opacity=100); 
+      }
+	
+			#jack 
+			{
+				width:33%;
+    		height:200px;	
+				float:right;
+			}
+			#jack img
+			{
+			  width: 100%;
+		   	height: 100%;   
+		   	border-width: 1px;
+		   	border-style: solid;
+		   	border-color: black;
+			}
+			#jack a img:hover
+			{
+        opacity: 0.3;
+        filter: alpha(opacity=100); 
+      }
+			
+			#ozil 
+			{
+				width:34%;
+				height:200px;
+				float:right;
+			}
+			#ozil img
+			{
+			  width: 100%;
+		    height: 100%;
+		    border-width: 1px;
+		    border-style: solid;
+		    border-color: black;
+			}
+			#ozil a img:hover
+			{
+       	opacity: 0.3;
+       	filter: alpha(opacity=100); 
+      }
+
+			#alexis
+			{
+				width:33%;
+				height:200px;
+				float:right;
+			}
+			#alexis img
+			{
+			  width: 100%;
+		    height: 100%;
+		    border-width: 1px;
+		    border-style: solid;
+		    border-color: black;
+			}
+			#alexis a img:hover
+			{
+       	opacity: 0.3;
+       	filter: alpha(opacity=100); 
+      }
+	
+			#aaron
+			{
+				width:34%;
+				height:200px;
+				float:right;
+			}
+			#aaron img
+			{
+			  width: 100%;
+			  height: 100%;
+			  border-width: 1px;
+		    border-style: solid;
+		    border-color: black;
+			}
+			#aaron a img:hover
+			{
+        opacity: 0.3;
+        filter: alpha(opacity=100); 
+      }
+
+			#scheduletable
+      {
+        width: 35%;
+        height: 100%;
+        float:left; 
+      }
+			#scheduletable th, td 
+			{
+				padding: 5px;
+      }
+      #scheduletable th
+      {
+       	background-color: black;
+       	color: rgb(255,225,207);
+      }
+      #scheduletable h2
+      {
+       	color: #660000;
+       	width: 100%;
+       	text-align: center;
+       	margin-bottom: 2%;
+      }
+
+      #twitterfeed
+      {
+       	width: 33%;
+       	height: 100px;
+       	float:left;
+      }
+      #twitterfeed table
+      {
+       	margin: 0;
+      }
+      #twitterfeed img 
+      {
+      	width: 60px;
+       	height: 60px;
+       	margin: 0;
+      }
+      #twitterfeed h2
+      {
+       	color: #660000;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      #twitterfeed a
+      {
+       	font-style: italic;
+       	color: red;
+       	font-weight: bold;
+       	text-decoration: none;
+      }
+      #twitterfeed a:hover
+      {
+       	font-size: 130%;
+      }
+      #twitterfeed span
+      {
+       	color: blue;
+      }
+
+      #socialNetwork
+      {
+       	width: 362px;
+       	height: 210px;
+       	float: left;
+			}
+			#socialNetwork h2
+			{
+				color: #660000;
+				margin-bottom:3%;
+        width: 100%;
+        text-align: center;	
+			}
+
+			#socialimages
+      {
+        height: 100%;
+        width: 98%;
+        border-style: solid;
+        background-image: url("socialbackground.jpg");
+      }
+      #socialimages table
+      {
+        margin-top: 4%;
+      }
+      #socialimages td
+      {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+      #socialimages .likes
+      {
+        margin-top: 4%;
+        margin-left: 12%;
+      }
+      #socialimages a:hover
+      {
+        opacity: 0.8;
+        filter: alpha(opacity=100); 
+      }
+
+			#copyright
+			{
+				margin-top: 26%;
+        margin-bottom: 2%;
+				font-size: 100%;
+				color: #383838;
+				text-align: center;
+			}
+		
+    </style>
+  </head>
+
+
+
+  <body>
+    <div id = "icon">
+		  <img src="icon.jpg">
+	  </div>
+	
+	  <div id="header">
+		  <p>Arsenal Football Club <span>London</span> </p>
+      <ul>
+       	<li><a href="#">Home</a></li>
+       	<li><a href="http://www.arsenal.com/news/news-archive">News</a></li>
+       	<li><a href="http://www.arsenal.com/first-team/players">Teams</a></li>
+       	<li><a href="http://www.arsenal.com/fans">Fans</a></li>
+       	<li><a href="http://www.arsenal.com/the-club">About</a></li>
+	   	</ul>
+	  </div>
+
+	  <div id="team"> 
+		  <img src="team.jpg">
+	  </div>
+
+	  <div id="info">
+		  <p><span>Arsenal Football Club</span> is a professional football club based in Holloway, London that plays in English football's top tier, the Premier League. One of the most decorated clubs in English football, they have won 13 First Division and Premier League titles and a joint record 11 FA Cups. Arsenal have one of the best records in top flight matches, having accumulated the second most wins, the second most points, the ongoing record longest uninterrupted period in the top flight, and would be placed first in an aggregated league of the entire 20th century. At 14 and 49 matches, Arsenal hold both the longest winning streak and the longest unbeaten streak; the latter includes the only completely unbeaten season since Preston North End's 16 match shorter equivalent in the inaugural Football League season 115 years before. Since its formation in 1886, Arsenal Football Club has strived to foster a sense of pride, belonging and tradition underpinned by an innovative spirit and desire to be at the cutting edge of sporting and social developments.</p>
+		  <p>Arsenal Football Club exists to make our fans proud wherever they are in the world and however they choose to follow us. Our focus on developing youth talent, our magnificent stadium, our broader contribution in the community and our self-financing approach.</p>
+	  </div>
+
+		<div id="jack">
+		  <a href="http://www.arsenal.com/first-team/players/jack-wilshere">
+		    <img src="JackWilshere.jpg"></img>
+		  </a>
+		</div>
+        
+    <div id="ozil">
+		  <a href="http://www.arsenal.com/first-team/players/mesut-ozil">
+		    <img src="MesutOzil.jpg"></img>
+		  </a>
+		</div>		
+        
+    <div id="santi">
+		  <a href="http://www.arsenal.com/first-team/players/santi-cazorla">
+		    <img src="SantiCazorla.jpg"></img>
+		  </a>
+		</div>
+
+    <div id="alexis">
+		  <a href="http://www.arsenal.com/first-team/players/alexis-sanchez">
+		    <img src="AlexisSanchez.jpg"></img>
+		  </a>
+		</div>
+		
+		<div id="aaron">
+		  <a href="http://www.arsenal.com/first-team/players/aaron-ramsey">
+		    <img src="AaronRamsey.jpg"></img>
+		  </a>
+		</div>
+		
+		<div id="giroud">
+		  <a href="http://www.arsenal.com/first-team/players/olivier-giroud">
+		    <img src="OlivierGiroud.jpg"></img>
+		  </a>
+		</div>
+	
+		<div id="scheduletable">
+      <table style="width:100%">
+        <h2>Upcoming Matches</h2>
+
+		    <tr>
+          <th>Opponent</th>
+          <th>Date</th>
+          <th>Time</th>
+        </tr>
+
+        <tr>
+          <td>Chelsea</td>
+          <td>Sun 26th April</td>		
+          <td>16.00</td>
+        </tr>
+
+        <tr style="background-color:#FFA07A;">
+          <td>Hull City</td>
+          <td>Mon 4th May</td>		
+          <td>20.00</td>
+        </tr>
+
+        <tr>
+          <td>Swansea City</td>
+          <td>Mon 11th May</td>		
+          <td>20.00</td>
+        </tr>
+
+		    <tr style="background-color:#FFA07A;">
+          <td>Manchester United</td>
+          <td>Sun 17th May</td>		
+          <td>16.00</td>
+        </tr>
+
+		    <tr>
+          <td>Sunderland</td>
+          <td>Wed 20th May</td>		
+          <td>19.45</td>
+        </tr>
+
+		    <tr style="background-color:#FFA07A;">
+          <td>West Bromwich Albion</td>
+          <td>Sat 30th May</td>		
+          <td>15.00</td>
+        </tr>
+      </table>	  
+	  </div>
+
+	  <div id="twitterfeed">
+	    <table style="width:100%">
+        <h2>Player Tweets</h2>
+
+		    <tr style = "">
+          <td><img src="j.png"></td>
+          <td><a href="https://twitter.com/JackWilshere" target="_blank">@JackWilshere</a><br>RT @Pele: .@10TenTalent brought @JackWilshere and I together to chat about football and family.</th>
+        </tr>
+
+        <tr>
+          <td><img src="p.png"></td>
+          <td><a href="https://twitter.com/mertesacker" target="_blank">@mertesacker</a><br>Get well soon @Badstuber, you are strong!!!</td>		
+        </tr>
+
+        <tr>
+          <td><img src="m.png"></td>
+          <td><a href="https://twitter.com/MesutOzil1088" target="_blank">@MesutOzil1088</a><br>Can't beat a game of table football!</td>		
+        </tr>
+
+      </table>	
+    </div>
+
+	  <div id="socialNetwork">
+     	<h2>Follow Arsenal</h2>
+      <div id="socialimages">
+        <table>
+          <tr>
+            <td><a href="https://www.facebook.com/Arsenal" target="_blank"><img src="icon - facebook.png"></a></td>
+            <td><a href="https://twitter.com/arsenal" target="_blank"><img src="icon - twitter.png"></a></td>
+            <td><a href="https://plus.google.com/+arsenal/posts" target="_blank"><img src="icon - googleplus.png"></a></td>
+            <td><a href="https://www.pinterest.com/TheArsenal/" target="_blank"><img src="icon - pinterest.png"></a></td>
+          </tr>
+
+          <tr>
+            <td><a href="https://instagram.com/arsenal/" target="_blank"><img src="icon - instagram.png"></a></td>
+            <td><a href="https://www.youtube.com/arsenal" target="_blank"><img src="icon - youtube.png"></a></td>
+            <td><a href="https://soundcloud.com/officialarsenal" target="_blank"><img src="icon - soundcloud.png"></a></td>
+            <td><a href="http://www.weibo.com/OfficialArsenal" target="_blank"><img src="icon - chinese.png"></a></td>
+          </tr> 
+        </table>
+          
+        <img class = "likes" src="fbfollowers.png">
+        <img class = "likes" src="twfollowers.png">
+      </div>
+
+    </div>
+
+		<div id="copyright">
+			<p><hr><pre>&copy Copyright 2015   |   Vipul Patil   |   All rights reserved</pre></p>
+		</div>
+
+	</body>
+
+</html>
